@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.escolpo{
+    
+}
+
+.links{
+    display:flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding:20px;
+    align-self: flex-start;
+    background-color:rgba(145, 255, 0, 0.38);
+}
+
+.escolpo h1{
+    font-size:500%;
+    color:purple;
+    justify-content:center;
+    text-align: center;
+}
+
+form {
+    display:flex;
+    flex-direction:row;
+   align-items: center;
+   gap: 30px;
+   margin-top: 100px;
+    
+
+
+   
+}
+
+.page{
+    margin-left:35%;
+    display:flex;
+    width:180%;
+    color:red;
+    background-color:rgba(9,9,255,0.5);
+    max-width: 600px;
+    height:40px;
+    border: 2px solid #800080;
+    border-radius:5px;
+    align-items:center;
+    
+    
+}
+
+.buttomn{
+   display:flex;
+    align-items:left;
+    color: purple;
+    scale:150%;
+    justify-content:flex-end;
+    margin-right:30%;
+    height:30px;
+    border-radius:5px;
+}
+
+.listas{
+   
+display: flex;             /* OBRIGATÓRIO para o column funcionar */
+    flex-direction: column;    /* Coloca os itens um embaixo do outro */
+    justify-content: space-between; /* Corrigido: precisa do hífen */
+    
+    background-color: red;     /* Apenas para teste visual */
+    margin-top: 3%;
+    gap: 15px;
+}
