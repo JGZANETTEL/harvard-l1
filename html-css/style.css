@@ -19,14 +19,14 @@
 
 .escolpo h1{
     font-size:500%;
-    color:purple;
+    color:black;
     justify-content:center;
     text-align: center;
 }
 
-form {
+.forme {
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
    align-items: center;
    gap: 30px;
    margin-top: 100px;
@@ -37,38 +37,84 @@ form {
 }
 
 .page{
-    margin-left:35%;
+    margin-left:0%;
     display:flex;
     width:180%;
-    color:red;
-    background-color:rgba(9,9,255,0.5);
+    color:black;
+    background-color:rgba(0, 0, 0, 0.14);
     max-width: 600px;
     height:40px;
-    border: 2px solid #800080;
+    border: 2px solid #000000ff;
     border-radius:5px;
     align-items:center;
-    
-    
 }
+
+.page:hover{
+   border: 2px solid #0004ff48;
+}
+    
+    
+
 
 .buttomn{
    display:flex;
-    align-items:left;
-    color: purple;
+    align-items:bottom;
+    color: rgba(0, 0, 0, 0.93);
     scale:150%;
-    justify-content:flex-end;
-    margin-right:30%;
+    justify-content:bottom;
+    margin-right:0%;
     height:30px;
+    width:400px;
     border-radius:5px;
+    
+}
+.buttomn:hover{
+    transition:0.3s;
+    background-color:blue;
+    color:white;
 }
 
-.listas{
-   
-display: flex;             /* OBRIGATÓRIO para o column funcionar */
-    flex-direction: column;    /* Coloca os itens um embaixo do outro */
-    justify-content: space-between; /* Corrigido: precisa do hífen */
+// search advanced 
+
+.search-advanced{
+
+
+}
+.forms{
+    display:flex;
+justify-content:space-between;
+flex-direction:column;
+max-width:600px;
+margin-left:20px;
+gap: 8px;
+
+}
+.listas:focus{
+    border: 4px solid rgba(9,9,255,0.5);
+}
+.listas:hover{
+    background-color:rgba(9, 9, 255, 0.06);
+}
+
+
+.search-bottom{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+    transition:0.3s;
+    scale:120%;
+    max-width:100px;
+    margin-left:490px;
+    border-radius:2px;
+}
+
+.search-bottom:hover{
+    background-color:rgba(9, 9, 255, 0.93);
+    color:white;
     
-    background-color: red;     /* Apenas para teste visual */
-    margin-top: 3%;
-    gap: 15px;
+}
+  
+.listas{
+    height:30px;
+     border-radius:2px
 }
