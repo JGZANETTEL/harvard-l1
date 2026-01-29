@@ -15,6 +15,7 @@
     padding:20px;
     align-self: flex-start;
     background-color:rgba(145, 255, 0, 0.38);
+    box-shadow: 0.5px 0.5px 0.5px black;
 }
 
 .escolpo h1{
